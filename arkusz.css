@@ -1,0 +1,98 @@
+body {
+        vertical-align: middle;
+        font-family: 'Century Gothic';
+        background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/repeated-square.png");
+}
+header {
+        background-color: whitesmoke;
+  	display: block;
+  	color: gray;
+        font-family: 'Century Gothic';
+	font-size: 50px;
+        height: 10%;
+}
+h1 {
+  	color: gray;
+        font-size: 40px;
+        font-family: 'Century Gothic';
+}
+nav{
+        height: 30px;
+        font-size: 20px;
+        background-color: white;
+}
+a{
+        text-decoration: none;
+        letter-spacing: 7px;
+        text-decoration: none;
+        color: black;
+}
+.link{
+        color: grey;
+        letter-spacing: 10px;
+}
+input{
+        width: 150px;
+}
+input:focus {
+        background-color: #D5D9C1;
+}
+input:submit {
+        background-color: whitesmoke;
+}
+div{
+        border: solid black 2px;
+        border-radius: 10px;
+        box-shadow: #666 2px 2px 3px;
+        width: 30%;
+        font-size: 20px;
+}
+table{
+        margin: 25px;
+        font-size: 20px;
+        background-color: whitesmoke;
+        height: 35px;
+        table-layout: fixed;
+        border: solid black 2px;
+        border-radius: 10px;
+        box-shadow: #666 2px 2px 3px;
+}
+tr:nth-of-type(even){
+        background-color: white;
+}
+tr, tbody{
+        width: 15em;
+        border-bottom: solid black 1px;
+}
+.glowny{
+        background-color: lightgrey;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+}
+img.zdjecie{
+        height: 150px;
+        margin:1mm;
+}
+img.serce{
+        height: 10px;
+        margin:1mm;
+}
+img.zdjecie:hover{
+        height: 170px;
+}
+a#link{
+        color: white;
+}
+img.ulubione{
+        height: 40px;
+}
+a.artysta{
+        letter-spacing: 2px;
+        font-size: 11px;
+}
+a.artystalink{
+        letter-spacing: 5px;
+        font-size: 11px;
+}
